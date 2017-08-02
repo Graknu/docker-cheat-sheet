@@ -2,23 +2,20 @@
 
 **Want to improve this cheat sheet?  See the [Contributing](#contributing) section!**
 
-## A Tasteful Plug for Lightbend
+## Une prise de bon goût pour Lightbend
 
 Je travaille pour [Lightbend](https://lightbend.com) dans le groupe [Play](https://playframework.com/) .  Je pense que la société est imprésionnante, et si vous regardez les containers car vous voulez faire bouger le monde du Cloud et sur le réfléxion des système distribué, vous serez intéréssé par ce manuel !
 
-Lightbend make microservices happen.  Developers use [Lagom](http://www.lagomframework.com/) to put together resilient ("chaos monkey resistant") microservices.  In production, there's [Conductr](https://conductr.lightbend.com/) to [orchestrate](http://www.cakesolutions.net/teamblogs/typesafe-conductr-the-missing-glue-between-dev-and-ops) containers -- [including Docker](https://www.lightbend.com/blog/reactive-for-devops-part-3-using-docker-with-conductr-on-the-jvm).  Finally, there's [monitoring](https://developer.lightbend.com/docs/monitoring/latest/home.html) to tell you what's going on at a detailed application level, so you know where your CPU and memory resources are being spent, and can scale up and down based on that information.  For more, check out the [devops site](https://www.lightbend.com/platform/production).
+Lightbend produit des microservices.  Les développeurs utilisent [Lagom](http://www.lagomframework.com/) pour mettre en place ("chaos monkey resistant") les microservices.  En production, il y a [Conductr](https://conductr.lightbend.com/), [orchestrate](http://www.cakesolutions.net/teamblogs/typesafe-conductr-the-missing-glue-between-dev-and-ops) containers -- [including Docker](https://www.lightbend.com/blog/reactive-for-devops-part-3-using-docker-with-conductr-on-the-jvm).  Finalement, il y a [monitoring](https://developer.lightbend.com/docs/monitoring/latest/home.html) Pour dire ce qui se passe à un niveau détaillé de l'application, si tu sais que tes ressources CPU et mémoires sont dépensé, et tu peut les agrandir et les rétrécir sur la base de cette information. Pour plus, regarde [devops site](https://www.lightbend.com/platform/production).
 
-This concludes the tasteful plug.
-
-## Table of Contents
-
-* [Why Docker](#why-docker)
-* [Prerequisites](#prerequisites)
+## Sommaire
+* [Pourquoi Docker ?](#why-docker)
+* [Pré-requis](#prerequisites)
 * [Installation](#installation)
 * [Containers](#containers)
 * [Images](#images)
-* [Networks](#networks)
-* [Registry and Repository](#registry--repository)
+* [Réseau](#networks)
+* [Registre et Repository](#registry--repository)
 * [Dockerfile](#dockerfile)
 * [Layers](#layers)
 * [Links](#links)
